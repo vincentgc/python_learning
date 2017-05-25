@@ -18,7 +18,7 @@ x_volte=[]
 temp=[]
 
 
-
+#箭头标注
 plt.annotate('The favorite close loop point',size=16, xy=(1, 0.1), xycoords='data',
                 xytext=(-180, 40), textcoords='offset points',
                 arrowprops=dict(arrowstyle="->",connectionstyle="arc3,rad=.2")
@@ -82,19 +82,22 @@ for s in wb.sheets():
         y_data.append(values[1])
 plt.plot(x_data, y_data, 'bo--',label=u"Faster D latch and XOR",linewidth=2)
 
+#理想曲线
 for i in range(360):
     #x_data3.append(i)
     x_data3.append(i/180.0)
     y_data3.append((i-180)*0.052-0.092)
 plt.plot(x_data3, y_data3, 'c',label=u"The Ideal Curve",linewidth=2)
 
-
+#$LaTex写法$
 plt.title(u"$2\pi$ phase detector",size=20)
 plt.legend(loc=0)#显示label
 #移动坐标轴代码
 ax = gca()
+#去掉右和上轴
 ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
+#下轴和左轴零对齐
 ax.xaxis.set_ticks_position('bottom')
 ax.spines['bottom'].set_position(('data',0))
 ax.yaxis.set_ticks_position('left')
