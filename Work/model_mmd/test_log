@@ -1,0 +1,16 @@
+./model_mmd/model_best_1.pth`s Acc: 0.8048, Total Acc: 0.9008
+./model_mmd/model_best_10.pth`s Acc: 0.8286, Total Acc: 0.9008
+./model_mmd/model_best_11.pth`s Acc: 0.7594, Total Acc: 0.8701
+./model_mmd/model_best_12.pth`s Acc: 0.7871, Total Acc: 0.9070
+./model_mmd/model_best_13.pth`s Acc: 0.7679, Total Acc: 0.8916
+./model_mmd/model_best_14.pth`s Acc: 0.7971, Total Acc: 0.9178
+./model_mmd/model_best_2.pth`s Acc: 0.8078, Total Acc: 0.9024
+./model_mmd/model_best_3.pth`s Acc: 0.7986, Total Acc: 0.8962
+./model_mmd/model_best_4.pth`s Acc: 0.8063, Total Acc: 0.8970
+./model_mmd/model_best_5.pth`s Acc: 0.7932, Total Acc: 0.8924
+./model_mmd/model_best_6.pth`s Acc: 0.7633, Total Acc: 0.8809
+./model_mmd/model_best_7.pth`s Acc: 0.8009, Total Acc: 0.9078
+./model_mmd/model_best_8.pth`s Acc: 0.8386, Total Acc: 0.9239
+./model_mmd/model_best_9.pth`s Acc: 0.7725, Total Acc: 0.9016
+Best_Acc: 0.8386
+./model_mmd/model_best_8.pth
